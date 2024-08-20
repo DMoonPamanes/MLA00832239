@@ -7514,7 +7514,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -7533,7 +7533,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Separar los datos</span>
@@ -7549,10 +7549,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">X_train</span> <span class="o">=</span> <span class="n">train_data</span><span class="p">[</span><span class="s1">'Celsius'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Guardar datos en variables</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">train_data</span><span class="p">[</span><span class="s1">'Celsius'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">y_train</span> <span class="o">=</span> <span class="n">train_data</span><span class="p">[</span><span class="s1">'Valks'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">X_test</span> <span class="o">=</span> <span class="n">test_data</span><span class="p">[</span><span class="s1">'Celsius'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
 <span class="n">y_test</span> <span class="o">=</span> <span class="n">test_data</span><span class="p">[</span><span class="s1">'Valks'</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
@@ -7566,11 +7567,10 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Normalizar los datos</span>
-<span class="n">X_train_mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">X_train_mean</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
 <span class="n">X_train_std</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
 <span class="n">X_train</span> <span class="o">=</span> <span class="p">(</span><span class="n">X_train</span> <span class="o">-</span> <span class="n">X_train_mean</span><span class="p">)</span> <span class="o">/</span> <span class="n">X_train_std</span>
 <span class="n">X_test</span> <span class="o">=</span> <span class="p">(</span><span class="n">X_test</span> <span class="o">-</span> <span class="n">X_train_mean</span><span class="p">)</span> <span class="o">/</span> <span class="n">X_train_std</span>
@@ -7584,7 +7584,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Agregar término cuadrático (polinomialización de grado 2)</span>
@@ -7600,12 +7600,12 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Inicializar los parámetros aleatoriamente</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>  <span class="c1"># Para reproducibilidad</span>
-<span class="n">slope</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>  <span class="c1"># Dos parámetros para X y X^2</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span> 
+<span class="n">slope</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> 
 <span class="n">intercept</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">()</span>
 
 <span class="c1"># Definir la tasa de aprendizaje, el número de iteraciones y el parámetro de regularización</span>
@@ -7622,10 +7622,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Implementar el descenso de gradiente</span>
+<span class="n">cost_history</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">iterations</span><span class="p">):</span>
     <span class="c1"># Calcular la predicción</span>
     <span class="n">y_pred_train</span> <span class="o">=</span> <span class="n">X_train_poly</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">slope</span><span class="p">)</span> <span class="o">+</span> <span class="n">intercept</span>
@@ -7638,8 +7639,9 @@ a.anchor-link {
     <span class="n">slope</span> <span class="o">-=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">d_slope</span>
     <span class="n">intercept</span> <span class="o">-=</span> <span class="n">learning_rate</span> <span class="o">*</span> <span class="n">d_intercept</span>
 
-    <span class="c1"># Calcular la función de costo (MSE) y almacenarla</span>
+    <span class="c1"># Calcular la función de costo y almacenarla</span>
     <span class="n">cost</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y_train</span> <span class="o">-</span> <span class="n">y_pred_train</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">cost_history</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cost</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7650,13 +7652,13 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Calcular la predicción para el conjunto de prueba</span>
 <span class="n">y_pred_test</span> <span class="o">=</span> <span class="n">X_test_poly</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">slope</span><span class="p">)</span> <span class="o">+</span> <span class="n">intercept</span>
 
-<span class="c1"># Calcular la función de costo (MSE) para entrenamiento y prueba</span>
+<span class="c1"># Calcular la función de costo para entrenamiento y prueba</span>
 <span class="n">train_cost</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y_train</span> <span class="o">-</span> <span class="n">y_pred_train</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
 <span class="n">test_cost</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y_test</span> <span class="o">-</span> <span class="n">y_pred_test</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
 </pre></div>
@@ -7669,10 +7671,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Costo de Entrenamiento: </span><span class="si">{</span><span class="n">train_cost</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Imprimir el costo</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Costo de Entrenamiento: </span><span class="si">{</span><span class="n">train_cost</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Costo de Prueba: </span><span class="si">{</span><span class="n">test_cost</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -7698,7 +7701,7 @@ Costo de Prueba: 83.15636479464152
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Graficar los resultados del modelo</span>
@@ -7733,17 +7736,17 @@ Costo de Prueba: 83.15636479464152
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create a table comparing actual and predicted values for the test set</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Crear tabla comparando los valores</span>
 <span class="n">results</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
     <span class="s1">'Celsius'</span><span class="p">:</span> <span class="n">X_test</span><span class="p">,</span>
     <span class="s1">'Actual Valks'</span><span class="p">:</span> <span class="n">y_test</span><span class="p">,</span>
     <span class="s1">'Predicted Valks'</span><span class="p">:</span> <span class="n">y_pred_test</span>
 <span class="p">})</span>
 
-<span class="c1"># Display the first few rows of the results</span>
+<span class="c1"># Mostrar los primeros resultados</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
 </pre></div>
 </div>
@@ -7768,16 +7771,31 @@ Costo de Prueba: 83.15636479464152
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span><span class="s1">'Valhalla.ipynb'</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[NbConvertApp] Converting notebook Valhalla.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 1 image(s).
+[NbConvertApp] Writing 351953 bytes to Valhalla.html
+</pre>
 </div>
 </div>
 </div>
