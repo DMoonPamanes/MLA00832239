@@ -6,3 +6,5 @@ It has happened. Aliens have arrived. They hail from a planet called Valhalla-23
 the Earth.
 3. No one knows how to transform between Celsius and Valks.
 You are tasked with finding a model for solving this problem, so you ask Humans and Valkians to collect temperature readings from several objects. The data are given in the Valhalla23.csv file.
+
+Los archivos del proyecto que se utilizan son Valhalla.ipynb doned aqui se tiene le notebook con la entrega en python, despues tenemos Valhalla.html que este se hace al momento de correr el programa en python y se usa para facilitarnos en hacer el archivo Valhalla.pdf donde ya se puede apreciar la entrega de una manera limpia y ordenada.
