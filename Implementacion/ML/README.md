@@ -1,11 +1,5 @@
-# Valhalla
-
-It has happened. Aliens have arrived. They hail from a planet called Valhalla-23, where the temperature is measured in Valks. These visitors tell you that they have come to solve Earth’s global warming crisis*. They offer you a machine that will solve the problem, but they warn you:
-1. The machine must be set up in Valks.
-2. If you input a wrong temperature value, you may end up freezing or scorching
-the Earth.
-3. No one knows how to transform between Celsius and Valks.
-You are tasked with finding a model for solving this problem, so you ask Humans and Valkians to collect temperature readings from several objects. The data are given in the Valhalla23.csv file.
+# Machine Learning
+En esta carpeta se encontrara todo lo relacionado con implementaciones de Machine Learning.
 
 ## Lectura de Archivos
-Los archivos del proyecto que se utilizan son Valhalla.ipynb doned aqui se tiene le notebook con la entrega en python, despues tenemos Valhalla.html que este se hace al momento de correr el programa en python y se usa para facilitarnos en hacer el archivo Valhalla.pdf donde ya se puede apreciar la entrega de una manera limpia y ordenada.
+Tenemos 2 carpetas, en la carpeta de Implementacion con Framework tenemos una solucion sobre el reto de Valhalla con el uso de Scikit-Learn y en la carpeta de Implementacion sin Framework tenemos el mismo reto de Valhalla pero solucionado de manera manual.
