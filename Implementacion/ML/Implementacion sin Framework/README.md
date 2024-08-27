@@ -8,4 +8,4 @@ the Earth.
 You are tasked with finding a model for solving this problem, so you ask Humans and Valkians to collect temperature readings from several objects. The data are given in the Valhalla23.csv file.
 
 ## Lectura de Archivos
-Los archivos del proyecto que se utilizan son Valhalla.ipynb doned aqui se tiene le notebook con la entrega en python, despues tenemos Valhalla.html que este se hace al momento de correr el programa en python y se usa para facilitarnos en hacer el archivo Valhalla.pdf donde ya se puede apreciar la entrega de una manera limpia y ordenada.
+Los archivos del proyecto que se utilizan son Valhalla.ipynb donde aqui se tiene el notebook con la entrega en python, despues tenemos Valhalla.html que este se hace al momento de correr el programa en python y se usa para facilitarnos en hacer el archivo Valhalla.pdf donde ya se puede apreciar la entrega de una manera limpia y ordenada.
