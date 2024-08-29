@@ -9,3 +9,5 @@ You are tasked with finding a model for solving this problem, so you ask Humans 
 
 ## Lectura de Archivos
 Los archivos del proyecto que se utilizan son Valhalla.ipynb donde aqui se tiene el notebook con la entrega en python, despues tenemos Valhalla.html que este se hace al momento de correr el programa en python y se usa para facilitarnos en hacer el archivo Valhalla.pdf donde ya se puede apreciar la entrega de una manera limpia y ordenada.
+
+En esta carpeta se encuentra la solucion al problema de Valhalla con un modelo que se hizo sin el uso de librerias avanzadas.
